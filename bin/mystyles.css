@@ -1,0 +1,27 @@
+.root {
+	-fx-background-color: #0f2356;
+	-fx-font-family: "Gill Sans", sans-serif;
+	-fx-font-size: 25px;
+}
+
+.label {
+	-fx-text-fill: white;
+}
+
+.button {
+    -fx-background-radius: 20px;
+	-fx-border-color: #24776a;
+	-fx-border-radius: 20px;
+	-fx-font-size: 20px;
+}
+
+.button:hover {
+    -fx-background-radius: 20px;
+	-fx-border-color: rgb(212, 102, 131);
+	-fx-border-radius: 20px;
+	-fx-font-size: 20px;
+}
+
+#dice:hover {
+	-fx-effect: dropshadow(three-pass-box, rgb(247, 148, 174) , 45, 0, 0, 0);
+}
